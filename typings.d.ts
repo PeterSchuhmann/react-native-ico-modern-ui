@@ -1,5 +1,6 @@
 declare module 'react-native-ico-modern-ui' {
     import { ReactNode } from 'react';
+    import { SvgProps, AdditionalProps } from 'react-native-svg';
 
     type iconNames = '3d-2' |
       '3d-obj' |
@@ -1293,7 +1294,7 @@ declare module 'react-native-ico-modern-ui' {
       badge?: number | string | badgeTypeObj;
     }
 
-    const Icon: (props: IconProps) => ReactNode;
+    const Icon: (props: IconProps & SvgProps & AdditionalProps) => ReactNode;
 
     export { iconNames };
     export default Icon;
