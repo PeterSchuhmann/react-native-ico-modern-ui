@@ -22,7 +22,7 @@ render() {
         <>
           <Icon name="3d" />
           <Icon name="acorn" height="40" width="40" />
-          <Icon name="add-multiple" color="red" />
+          <Icon name="add-multiple" style={{color: 'red'}} />
           <Icon name="add-multiple" colors={{ "#000000": "#FFFFFF" }} />
           <Icon name="acorn" badge="10" />
           <Icon name="acorn" badge={{value: 'A', fontSize: 25, radius: 22, position:'top_left', color:'orange', backgroundColor:'blue'}}/>
